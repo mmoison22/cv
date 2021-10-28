@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Structure page HTML</title>
+    </head>
+    <body>
+      <header>
+        <figure>
+          <!--Ceci est image-->      
+          <img src="https://picsum.photos/1600/300" alt="Photo deco">
+         <!-- <figcaption>Superbe photo</figcaption>-->
+        </figure>
+        <nav>
+          <ul class="nav-header">
+            <li><a href="#" title="A propos">A propos</a></li>
+            <li><a href="#" title="Mes compétences">Compétences</a></li>
+            <li><a href="#" title="Expériences professionneles">Expérience</a></li>
+            <li><a href="#" title="Formation">Formation</a></li>
+            <li><a href="#" title="Contactez-moi">Contact</a></li>
+          </ul>
+        </nav>
+        <h1>Développeur front-end</h1>
+      </header>
+      <main>
+        <section>
+          <article>
+            <header>
+              <h2>A propos</h2>
+              <figure>
+                <img src="https://via.placeholder.com/150?text=Photo_profil " alt="Photo profil">
+              </figure>          
+            </header>
+            <aside>
+              <ul>
+                <li>Nom</li>
+                <li>Prénom</li>
+                <li><a href="mailto:john.doe@free.fr">Contactez moi</a></li>
+                <li><a href="tel:0123456">Téléphone</a></li>
+                <li><address>Adresse</address></li>
+              </ul>          
+            </aside>
+          </article>
+        </section>
+        <!--Expériences professionnelle-->
+        <section>
+          <h2>Expériences professionnelle</h2>
+          <article>
+          <h3>Nom de l'entreprise</h3>
+          <h3>Nom du poste</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, perferendis recusandae perspiciatis, eligendi vitae quia esse, commodi atque laudantium deserunt ullam a sequi? Vel tenetur, nisi rem distinctio sequi quis! <br>
+            Totam, porro numquam praesentium esse minima natus illo? Nisi dicta repellat est delectus quidem exercitationem aspernatur voluptatem atque, veritatis eveniet corrupti neque obcaecati libero quis fugit sint nobis necessitatibus voluptatum. <br>
+            Libero minus nulla, incidunt iste ipsa a. Soluta eligendi est quos esse delectus incidunt nesciunt aliquid, perferendis repellat amet totam accusantium maiores excepturi necessitatibus aperiam earum deserunt eius inventore tempora!</p>
+            <pre>
+              ul.nav-header {
+               width: 500px;
+               margin: 0 auto;
+               list-style: none;
+              }
+            </pre>
+          </article>
+          <hr>
+          <article>
+          <h3>Nom de l'entreprise</h3>
+          <h3>Nom du poste</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, perferendis recusandae perspiciatis, eligendi vitae quia esse, commodi atque laudantium deserunt ullam a sequi? Vel tenetur, nisi rem distinctio sequi quis! <br>
+            Totam, porro numquam praesentium esse minima natus illo? Nisi dicta repellat est delectus quidem exercitationem aspernatur voluptatem atque, veritatis eveniet corrupti neque obcaecati libero quis fugit sint nobis necessitatibus voluptatum. <br>
+            Libero minus nulla, incidunt iste ipsa a. Soluta eligendi est quos esse delectus incidunt nesciunt aliquid, perferendis repellat amet totam accusantium maiores excepturi necessitatibus aperiam earum deserunt eius inventore tempora!</p>
+          </article>
+          <hr>
+          <article>
+          <h3>Nom de l'entreprise</h3>
+          <h3>Nom du poste</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, perferendis recusandae perspiciatis, eligendi vitae quia esse, commodi atque laudantium deserunt ullam a sequi? Vel tenetur, nisi rem distinctio sequi quis! <br>
+            Totam, porro numquam praesentium esse minima natus illo? Nisi dicta repellat est delectus quidem exercitationem aspernatur voluptatem atque, veritatis eveniet corrupti neque obcaecati libero quis fugit sint nobis necessitatibus voluptatum. <br>
+            Libero minus nulla, incidunt iste ipsa a. Soluta eligendi est quos esse delectus incidunt nesciunt aliquid, perferendis repellat amet totam accusantium maiores excepturi necessitatibus aperiam earum deserunt eius inventore tempora!</p>
+          </article>
+        </section>
+        <!--Compétences-->
+        <section>
+          <article>
+            <h2>Compétences</h2>
+            <table>
+              <caption>Mes compétences front-end</caption>
+              <thead>
+                <tr>
+                    <th>Langage</th>
+                    <th>Progression</th>
+                </tr>
+                
+              </thead>
+              <tr>
+                <td>HTML</td>
+                <td><progress id="html" max="100" value="70"> 70% </progress></td>
+              </tr>
+              <tr>
+                <td>CSS</td>
+                <td><progress id="css" max="100" value="30"> 30% </progress></td>
+              </tr>
+              <tr>
+                <td>Git</td>
+                <td><progress id="git" max="100" value="40"> 40% </progress></td>
+              </tr>
+              <tr>
+                <td>JavaScript</td>
+                <td><progress id="js" max="100" value="10"> 10% </progress></td>
+              </tr>
+            </table>
+          </article>
+        </section>
+        <section>
+          <h2>Formation</h2>
+          <article>
+            <h3>WebForce3</h3>
+            <h4><span><time datetime="2018-07-07">7 juillet 2018</time>&emsp;</span><span>6 mois</span></h4>
+            <h5>Lyon</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut odit tempora consectetur nemo, minima odio rerum id numquam itaque excepturi illo eius voluptates voluptatem recusandae libero labore incidunt maiores accusantium.</p>
+          </article>
+          <article>
+            <h3>3WA</h3>
+            <h4><span>7 avril 2018</span>&emsp;<span>6 mois</span></h4>
+            <h5>Lyon</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut odit tempora consectetur nemo, minima odio rerum id numquam itaque excepturi illo eius voluptates voluptatem recusandae libero labore incidunt maiores accusantium.</p>
+          </article>
+          <article></article>
+        </section>
+      </main>
+      <footer>
+        
+      </footer>
+    </body>
+    </html>
