@@ -19,5 +19,36 @@
         </nav>
         <h1>Formulaire de contact</h1>
     </header>
+    <main>
+        <form action="#" method="POST">
+            <fieldset>
+                <legend>Identité</legend>
+                <label for="surname">Nom : </label>
+                <input type="text" placeholder="Nom" required>
+                <label for="name">Prénom : </label>
+                <input type="text" placeholder="Prénom" required>
+            </fieldset>
+            <fieldset>
+                <legend>Coordonnées</legend>
+                <label for="telephone">Téléphone : </label>
+                <input type="text" placeholder="Téléphone" pattern="(0|\\+33|0033)[1-9][0-9]{8}">
+                <label for="name">Courriel : </label>
+                <input type="email" placeholder="Courriel" required>
+            </fieldset>
+            <fieldset>
+                <legend>Type de contrat proposé</legend>
+                <label for="cdi">CDI: </label>
+                <input type="radio" name="poste" id="cdi" value="cdi" required>
+                <label for="interim">Intérim : </label>
+                <input type="radio" name="poste" id="interim" value="interim">
+                <label for="freelance">Freelance : </label>
+                <input type="radio" name="poste" id="freelance" value="freelance">
+                <!--<label for="nr">non renseigné : </label>
+                <input type="radio" name="poste" id="nr" value="nr" checked>-->
+            </fieldset>
+            <input type="submit" value="Envoi">
+            <input type="reset" value="Reset">
+        </form>
+    </main>
 </body>
 </html>
