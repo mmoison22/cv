@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff") format("woff");
+    font-display: swap;
+}
+p {
+    color: #0000bb;
+    font-size: 20px;
+    border:1px dashed green;
+}
+
+#footer {
+    background: url(../img/bg-motif.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 150px;
+    margin-top: 2em;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    /*margin: 10px 50px 50px 10px;
+    margin: 0 auto 0;*/
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    width:70%;
+    margin: 0 auto;
+    background-color: grey;
+    height:50px;
+}
+
+nav ul li {
+    margin: 0 20px;
+    float: left;
+    
+}
+
+h1 {
+    font-family: Roboto;
+    text-align: center;
+    font-size: 40px;
+    color: teal;
+}

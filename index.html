@@ -8,14 +8,26 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>CV HTML</title>
+    <!--<style>
+        p {
+        color: red;
+        font-size: 20px;
+        }
+    </style>-->
 </head>
 
 <body>
     <header>
         <figure>
             <!--Ceci est image-->
-            <img src="https://picsum.photos/1600/300" alt="Photo deco">
+            <img src="assets/img/dev-worker_x2100.jpg" alt="Photo_deco"
+                srcset="assets/img/dev-worker_x2100.jpg 2100w, assets/img/dev-worker_x1550.jpg 1550w, assets/img/dev-worker_x775.jpg 775w, assets/img/dev-worker_x390.jpg 390w"
+                sizes="(min-width:400) 775px, (min-width:960) 1550px, (min-width:1600) 2100px, 100vw">
+
+
             <!-- <figcaption>Superbe photo</figcaption>-->
         </figure>
         <nav>
@@ -134,7 +146,7 @@
                             <td><progress id="js" max="100" value="10"> 10% </progress></td>
                         </tr>
                     </tbody>
-                    
+
                 </table>
             </article>
         </section>
@@ -159,13 +171,14 @@
             <article></article>
         </section>
     </main>
-    <footer>
+    <footer id="footer">
+
         <div>
             <span href="#" class="fab fa-facebook"></span>
             <span href="#" class="fab fa-twitter"></span>
             <span href="#" class="fab fa-instagram"></span>
         </div>
-        
+
 
     </footer>
 </body>
