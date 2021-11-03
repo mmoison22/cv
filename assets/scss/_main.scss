@@ -1,0 +1,123 @@
+p {
+    color: #0000bb;
+    font-size: 20px;
+    border:1px dashed green;
+}
+
+.footer {
+    background: url(../img/bg-motif.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 150px;
+    margin-top: 2em;
+}
+
+.footer .fab {
+    font-size:3em;
+}
+
+/* .footer span {
+    font-size: 10em;
+} */
+main {
+    width: 80%;
+    margin: 0 auto;
+    /*margin: 10px 50px 50px 10px;
+    margin: 0 auto 0;*/
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    width:70%;
+    margin: 0 auto;
+    background-color: grey;
+    height:50px;
+}
+
+nav ul li {
+    margin: 0 20px;
+    float: left;
+    
+}
+
+h1 {
+    /* font-family: 'Fruktur', cursive; */
+    font-family: playfair-bold;
+    text-align: center;
+    font-size: 40px;
+    color: teal;
+}
+
+h2 {
+    font-family: playfair-regular, serif;
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.blue {
+    color: blue;
+}
+
+.green {
+    color: green;
+}
+
+.active {
+    color: indianred;
+}
+
+h2.blue {
+    font-size: 10px;
+}
+
+a:link {
+    color: teal;
+    text-decoration: none;
+}
+a:hover {
+    color: darkorange;
+}
+
+a:active {
+    color:blueviolet;
+}
+a:visited {
+    color:red;
+}
+
+nav > ul li{
+    text-transform: uppercase;
+}
+
+.forma ~ article h3 {
+    color:gold;
+}
+
+.exp + section {
+    background-color: silver;
+}
+
+.apropos figure img {
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+.apropos {
+    /* justify-content: center; */
+    margin:auto;
+}
+
+body {
+background-color: $bg-color;
+margin: $size * 2;
+}
